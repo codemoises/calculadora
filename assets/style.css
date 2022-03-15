@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.fundo {
+.bg {
     background-color: #4D243D;
     height: 100vh;
     color: white;
@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
 
 }
 
@@ -93,4 +93,30 @@ a {
 
 a:hover {
     color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    border-top: 1px solid #282c31;
+    text-align: center;
+    position: relative;
+    top: 73%;
+}
+
+.footer p {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.calculadora input {
+    max-width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+    text-align: right;
+    padding: 5px;
 }
