@@ -1,2 +1,3 @@
-# calculadora
- Calculadora feita em JavaScript!
+<h1 align="center">
+🧮<br>Calculadora
+</h1>
