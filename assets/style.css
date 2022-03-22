@@ -13,6 +13,7 @@
 }
 
 .calculadora {
+    height: 433px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     top: 50%;
@@ -76,12 +77,14 @@ button:hover {
 
 #resultado {
     max-width: 207px;
-    height: 30px;
+    height: 45px;
     margin: 5px;
     font-size: 25px;
     color: white;
     text-align: right;
     padding: 5px;
+    overflow: hidden;
+    overflow-x: auto;
 }
 
 a {
@@ -95,12 +98,11 @@ a:hover {
     color: white;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 6rem;
-    border-top: 1px solid #282c31;
     text-align: center;
     position: relative;
     top: 73%;
@@ -109,14 +111,4 @@ a:hover {
 .footer p {
     font-size: 1.6rem;
     margin: 0;
-}
-
-.calculadora input {
-    max-width: 207px;
-    height: 30px;
-    margin: 5px;
-    font-size: 25px;
-    color: white;
-    text-align: right;
-    padding: 5px;
 }
