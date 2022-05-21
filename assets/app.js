@@ -1,25 +1,25 @@
 function insert(num) {
-    var numero = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = numero + num;
+    var number = document.getElementById('result').innerHTML;
+    document.getElementById('result').innerHTML = number + num;
     if (num == '%') {
-        document.getElementById('resultado').innerHTML = numero/100;
+        document.getElementById('result').innerHTML = number/100;
     }
 }
 
 function clean() {
-    document.getElementById('resultado').innerHTML = '';
+    document.getElementById('result').innerHTML = '';
 }
 
 function back() {
-    var resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+    var resultado = document.getElementById('result').innerHTML;
+    document.getElementById('result').innerHTML = resultado.substring(0, resultado.length -1);
 }
 
-function calcular() {
-    var resultado = document.getElementById('resultado').innerHTML;
+function calculate() {
+    var resultado = document.getElementById('result').innerHTML;
     if (resultado) {
-        document.getElementById('resultado').innerHTML = eval(resultado);
+        document.getElementById('result').innerHTML = eval(resultado);
     } else {
-        document.getElementById('resultado').innerHTML = '';
+        document.getElementById('result').innerHTML = '';
     }
 }
