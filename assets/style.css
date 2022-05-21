@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.bg {
+.content {
     background-color: #4D243D;
     height: 100vh;
     color: white;
@@ -73,6 +73,10 @@ button:hover {
 
 .btn-igual:hover {
     background-color: rgb(5, 199, 5);
+}
+
+.button {
+    display: inline;
 }
 
 #resultado {

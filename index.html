@@ -8,49 +8,49 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="bg">
+    <div class="content">
         <div class="calculadora">
              <p id="resultado"></p>
             
-            <table>
-                <tr>
-                    <td><button class="btn-vazio"></button></td>
-                    <td><button class="btn-vazio"></button></td>
-                    <td><button class="btn-vazio"></button></td>
-                    <td><button class="btn-back"onclick="back()">←</button></td>
-                </tr>
-                <tr>
-                    <td><button class="btn-c" onclick="clean()">C</button></td>
-                    <td><button class="btn-calc" onclick="insert('')">()</button></td>
-                    <td><button class="btn-calc" onclick="insert('%')">%</button></td>
-                    <td><button class="btn-calc"onclick="insert('/')">÷</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick="insert('7')">7</button></td>
-                    <td><button onclick="insert('8')">8</button></td>
-                    <td><button onclick="insert('9')">9</button></td>
-                    <td><button class="btn-calc" onclick="insert('*')">x</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick="insert('4')">4</button></td>
-                    <td><button onclick="insert('5')">5</button></td>
-                    <td><button onclick="insert('6')">6</button></td>
-                    <td><button class="btn-calc" onclick="insert('-')">-</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick="insert('1')">1</button></td>
-                    <td><button onclick="insert('2')">2</button></td>
-                    <td><button onclick="insert('3')">3</button></td>
-                    <td><button class="btn-calc" onclick="insert('+')">+</button></td>
-                </tr>
-                <tr>
-                    <td><button onclick="insert('')">+/-</button></td>
-                    <td><button onclick="insert('0')">0</button></td>
-                    <td><button onclick="insert(',')">,</button></td>
-                    <td><button class="btn-igual" onclick="calcular()">=</button></td>
+            <div class="c1">
+                <div class="c2">
+                    <div class="button"><button class="btn-vazio"></button></div>
+                    <div class="button"><button class="btn-vazio"></button></div>
+                    <div class="button"><button class="btn-vazio"></button></div>
+                    <div class="button"><button class="btn-back"onclick="back()">←</button></div>
+                </div>
+                <div class="c2">
+                    <div class="button"><button class="btn-c" onclick="clean()">C</button></div>
+                    <div class="button"><button class="btn-calc" onclick="insert('')">()</button></div>
+                    <div class="button"><button class="btn-calc" onclick="insert('%')">%</button></div>
+                    <div class="button"><button class="btn-calc"onclick="insert('/')">÷</button></div>
+                </div>
+                <div class="c2">
+                    <div class="button"><button onclick="insert('7')">7</button></div class="button">
+                    <div class="button"><button onclick="insert('8')">8</button></div>
+                    <div class="button"><button onclick="insert('9')">9</button></div>
+                    <div class="button"><button class="btn-calc" onclick="insert('*')">x</button></div>
+                </div>
+                <div class="c2">
+                    <div class="button"><button onclick="insert('4')">4</button></div>
+                    <div class="button"><button onclick="insert('5')">5</button></div>
+                    <div class="button"><button onclick="insert('6')">6</button></div>
+                    <div class="button"><button class="btn-calc" onclick="insert('-')">-</button></div>
+                </div>
+                <div class="c2">
+                    <div class="button"><button onclick="insert('1')">1</button></div>
+                    <div class="button"><button onclick="insert('2')">2</button></div>
+                    <div class="button"><button onclick="insert('3')">3</button></div>
+                    <div class="button"><button class="btn-calc" onclick="insert('+')">+</button></div>
+                </div>
+                <div class="c2">
+                    <div class="button"><button onclick="insert('')">+/-</button></div>
+                    <div class="button"><button onclick="insert('0')">0</button></div>
+                    <div class="button"><button onclick="insert(',')">,</button></div>
+                    <div class="button"><button class="btn-igual" onclick="calcular()">=</button></div>
                     
-                </tr>
-            </table>
+                </div>
+            </div>
         </div>
         <footer><a href="https://github.com/codemoises" target="_blank" rel="external">@codemoises</a></footer>
     </div>
