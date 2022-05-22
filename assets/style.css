@@ -4,9 +4,12 @@
 }
 
 .content {
-    background-color: #4D243D;
+    background-image: url(img/background-floresta.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 100vh;
-    color: white;
+    /*color: white;*/
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
@@ -15,7 +18,7 @@
 .calculator {
     height: 433px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -45,11 +48,16 @@ button {
 
 button:hover {
     background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.5);
 
 }
 
 .btn-c {
     color: red;
+}
+
+.btn-c:hover {
+    color: rgba(255, 0, 0, 0.514);
 }
 
 .btn-vazio {
@@ -69,6 +77,10 @@ button:hover {
 
 .btn-calc {
     color: rgb(14, 182, 14);
+}
+
+.btn-calc:hover {
+    color: rgba(14, 182, 14, 0.568);
 }
 
 .btn-igual {
