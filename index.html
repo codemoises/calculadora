@@ -10,45 +10,44 @@
 <body>
     <div class="content">
         <div class="calculator">
-             <p id="result"></p>
-            
-            <div class="c1">
-                <div class="c2">
-                    <div class="button"><button class="btn-vazio"></button></div>
-                    <div class="button"><button class="btn-vazio"></button></div>
-                    <div class="button"><button class="btn-vazio"></button></div>
-                    <div class="button"><button class="btn-back"onclick="back()">←</button></div>
-                </div>
-                <div class="c2">
-                    <div class="button"><button class="btn-c" onclick="clean()">C</button></div>
-                    <div class="button"><button class="btn-calc" onclick="insert('')">()</button></div>
-                    <div class="button"><button class="btn-calc" onclick="insert('%')">%</button></div>
-                    <div class="button"><button class="btn-calc"onclick="insert('/')">÷</button></div>
-                </div>
-                <div class="c2">
-                    <div class="button"><button onclick="insert('7')">7</button></div class="button">
-                    <div class="button"><button onclick="insert('8')">8</button></div>
-                    <div class="button"><button onclick="insert('9')">9</button></div>
-                    <div class="button"><button class="btn-calc" onclick="insert('*')">x</button></div>
-                </div>
-                <div class="c2">
-                    <div class="button"><button onclick="insert('4')">4</button></div>
-                    <div class="button"><button onclick="insert('5')">5</button></div>
-                    <div class="button"><button onclick="insert('6')">6</button></div>
-                    <div class="button"><button class="btn-calc" onclick="insert('-')">-</button></div>
-                </div>
-                <div class="c2">
-                    <div class="button"><button onclick="insert('1')">1</button></div>
-                    <div class="button"><button onclick="insert('2')">2</button></div>
-                    <div class="button"><button onclick="insert('3')">3</button></div>
-                    <div class="button"><button class="btn-calc" onclick="insert('+')">+</button></div>
-                </div>
-                <div class="c2">
-                    <div class="button"><button onclick="insert('')">+/-</button></div>
-                    <div class="button"><button onclick="insert('0')">0</button></div>
-                    <div class="button"><button onclick="insert(',')">,</button></div>
-                    <div class="button"><button class="btn-igual" onclick="calculate()">=</button></div>
-                    
+            <div class="result">
+            <p id="result"></p>
+            </div>
+            <div class="content-flex">
+                <div class="content-btn">
+                    <div class="class-btn-back">
+                        <button class="btn-back"onclick="back()">←</button>
+                    </div>
+                    <div class="c2">
+                    <button class="btn-c" onclick="clean()">C</button>
+                        <button class="btn-calc" onclick="insert('')">()</button>
+                        <button class="btn-calc" onclick="insert('%')">%</button>
+                        <button class="btn-calc"onclick="insert('/')">÷</button>
+                    </div>
+                    <div class="c2">
+                        <button onclick="insert('7')">7</button>
+                        <button onclick="insert('8')">8</button>
+                        <button onclick="insert('9')">9</button>
+                        <button class="btn-calc" onclick="insert('*')">x</button>
+                    </div>
+                    <div class="c2">
+                        <button onclick="insert('4')">4</button>
+                        <button onclick="insert('5')">5</button>
+                        <button onclick="insert('6')">6</button>
+                        <button class="btn-calc" onclick="insert('-')">-</button>
+                    </div>
+                    <div class="c2">
+                        <button onclick="insert('1')">1</button>
+                        <button onclick="insert('2')">2</button>
+                        <button onclick="insert('3')">3</button>
+                        <button class="btn-calc" onclick="insert('+')">+</button>
+                    </div>
+                    <div class="c2">
+                        <button onclick="insert('')">+/-</button>
+                        <button onclick="insert('0')">0</button>
+                        <button onclick="insert(',')">,</button>
+                        <button class="btn-igual" onclick="calculate()">=</button>
+                    </div>
                 </div>
             </div>
         </div>
