@@ -23,3 +23,11 @@ function calculate() {
         document.getElementById('result').innerHTML = '';
     }
 }
+
+function year() {
+    const yearPrint = document.getElementById('year-footer');
+    const dateTime = new Date;
+    const year = dateTime.getFullYear();
+    yearPrint.innerHTML = `${year}`
+}
+year();
