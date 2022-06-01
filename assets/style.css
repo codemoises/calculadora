@@ -3,16 +3,21 @@
     padding: 0;
 }
 
-.content {
-    background-color: #4C243E;
+body {
     background-image: url(img/background-floresta.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+.content {    
+    width: 263px;
+    height: 420px;
 }
 
 .calculator {
@@ -23,11 +28,7 @@
     align-content: flex-end;
     justify-content: center;
     padding: 0 0 15px;
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 10px;
     border: 1px solid;
     border-color: darkgray;
@@ -145,6 +146,4 @@ a:hover {
     align-items: center;
     height: 6rem;
     text-align: center;
-    position: relative;
-    top: 75%;
 }
