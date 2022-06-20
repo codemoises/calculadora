@@ -73,12 +73,16 @@ button:hover {
     color: rgba(255, 0, 0, 0.514);
 }
 
+.img-back-2 {
+    display: none;
+    margin: 0 auto;
+}
 
+.btn-back:hover .img-back-2 {display: block;} .btn-back:hover .img-back-1 {display: none;}
 
 
 .btn-back {
     font-size: 25px;
-    color: rgb(14, 182, 14);
 }
 
 .btn-back:hover {
