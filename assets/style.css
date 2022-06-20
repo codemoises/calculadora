@@ -74,20 +74,16 @@ button:hover {
 }
 
 
-.class-btn-back {
-    display: flex;
-    justify-content: end;
-}
+
 
 .btn-back {
-    background: none;
     font-size: 25px;
-    color: rgba(0, 128, 0, 0.527);
+    color: rgb(14, 182, 14);
 }
 
 .btn-back:hover {
     background: none;
-    color: rgb(14, 182, 14);
+    color: rgba(14, 182, 14, 0.568);
 }
 
 .btn-calc {
