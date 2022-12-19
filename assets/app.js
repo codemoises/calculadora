@@ -1,9 +1,8 @@
 function insert(num) {
     var number = document.getElementById('result').innerHTML;
     document.getElementById('result').innerHTML = number + num;
-    if (num == '%') {
-        document.getElementById('result').innerHTML = number/100;
-    }
+
+    
 }
 
 function clean() {
@@ -23,11 +22,3 @@ function calculate() {
         document.getElementById('result').innerHTML = '';
     }
 }
-
-function year() {
-    const yearPrint = document.getElementById('year-footer');
-    const dateTime = new Date;
-    const year = dateTime.getFullYear();
-    yearPrint.innerHTML = `${year}`
-}
-year();

@@ -16,10 +16,9 @@
             <div class="content-flex">
                 <div class="content-btn">
                     <div class="c2">
-                    <button class="btn-c" onclick="clean()">C</button>
-                        <button class="btn-calc" onclick="insert('%')">%</button>
+                    <button class="btn-c btn-calc" onclick="clean()">C</button>
                         <button class="btn-calc"onclick="insert('/')">÷</button>
-                        <button class="btn-back"onclick="back()">
+                        <button class="btn-back btn-calc"onclick="back()">
                             <img class="img-back-1" src="assets/img/Icon-back.svg" alt="icone de apagar">
                             <img class="img-back-2" src="assets/img/Icon-back-2.svg" alt="icone de apagar">
                         </button>
@@ -40,27 +39,15 @@
                         <button onclick="insert('1')">1</button>
                         <button onclick="insert('2')">2</button>
                         <button onclick="insert('3')">3</button>
-                        <button class="btn-calc" onclick="insert('+')">+</button>
+                        <button class="btn-calc btn-soma" onclick="insert('+')">+</button>
                     </div>
                     <div class="c2 u-line">
                         <button onclick="insert('0')">0</button>
                         <button onclick="insert('.')">.</button>
-                        <button class="btn-igual" onclick="calculate()">=</button>
+                        <button class="btn-igual btn-calc" onclick="calculate()">=</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-            <p>
-                ©
-                <span id="year-footer">
-                
-                </span>
-                
-                <a
-                href="https://github.com/codemoises" target="_blank" rel="external">codemoises
-                </a>
-            </p>
         </div>
     </div>
     <script src="assets/app.js"></script>
