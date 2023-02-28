@@ -86,6 +86,9 @@ button:hover {
 
 .btn-calc {
     background-color: #f04516;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-btn .c2 {
